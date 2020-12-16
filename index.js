@@ -1,13 +1,24 @@
+const morgan = require('morgan');
+const helmet = require('helmet');
 const Joi = require('joi');
 const express = require('express');
 const app = express();
 const logger = require('./logger');
 const authenticator = require('./authenticator');
+const { urlencoded } = require('express');
 
 app.use(express.json());
+app.use(helmet());
+app.use(morgan('tiny'));
 
 app.use(logger);
 app.use(authenticator);
+
+//Middleware for encoded url. E.g. key=value&key=value
+app.use(express.urlencoded({ extended: true }));
+
+//Middleware to serve static files
+app.use(express.static('public'));
 
 const genres = [
   {id: 1, name: 'Drama'},
