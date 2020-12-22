@@ -1,6 +1,8 @@
+const startupDebugger = require('debug')('app:startup');
+const dbDebugger = require('debug')('app:db');
 const config = require('config');
-const morgan = require('morgan');
-const helmet = require('helmet');
+const morgan = require('morgan'); // for logging requests
+const helmet = require('helmet'); // for setting headers
 const Joi = require('joi');
 const express = require('express');
 const app = express();
@@ -8,20 +10,26 @@ const logger = require('./logger');
 const authenticator = require('./authenticator');
 const { urlencoded } = require('express');
 
+app.set('view engine', 'pug'); //express internally loads this module so no need to require it
+app.set('views', './views'); //default option - no need to set
+
 app.use(express.json());
 app.use(helmet());
 
 if (app.get('env') === 'development') {
   app.use(morgan('tiny'));
-  console.log('Morgan enabled...')
+  startupDebugger('Start up debugger');
 }
+
+//DB work
+dbDebugger('Connected to the database...');
 
 console.log(process.env.NODE_ENV);
 
 //Configuration
-console.log('Application name:' + config.get('name'));
-console.log('Mail server:' + config.get('mail.host'));
-console.log('Mail password:' + config.get('mail.password'));
+console.log('Application name: ' + config.get('name'));
+console.log('Mail server: ' + config.get('mail.host'));
+console.log('Mail password: ' + config.get('mail.password'));
 
 
 app.use(logger);
@@ -38,6 +46,10 @@ const genres = [
   {id: 2, name: 'Comedy'},
   {id: 3, name: 'Romance'}
 ];
+
+app.get('/', (req, res) => {
+  res.render('index', { title: 'My Express App', message: 'Hello'});
+})
 
 app.get('/api/genres', (req, res) => {
   res.send(genres);
