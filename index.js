@@ -1,3 +1,4 @@
+const config = require('config');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const Joi = require('joi');
@@ -9,7 +10,19 @@ const { urlencoded } = require('express');
 
 app.use(express.json());
 app.use(helmet());
-app.use(morgan('tiny'));
+
+if (app.get('env') === 'development') {
+  app.use(morgan('tiny'));
+  console.log('Morgan enabled...')
+}
+
+console.log(process.env.NODE_ENV);
+
+//Configuration
+console.log('Application name:' + config.get('name'));
+console.log('Mail server:' + config.get('mail.host'));
+console.log('Mail password:' + config.get('mail.password'));
+
 
 app.use(logger);
 app.use(authenticator);
