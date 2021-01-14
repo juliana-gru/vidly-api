@@ -1,27 +1,30 @@
 const express = require('express');
+const Genre = require('../schemas/genres');
 const router = express.Router();
 
 const Joi = require('joi');
 
-const genres = [
-  {id: 1, name: 'Drama'},
-  {id: 2, name: 'Comedy'},
-  {id: 3, name: 'Romance'}
-];
-
-router.get('/', (req, res) => {
-  res.send(genres);
+router.get('/', async (req, res) => {
+  try {
+    const genres = await Genre.find().sort('name');
+    res.send(genres) 
+  } catch(err) {
+    console.log(err.message)
+  }  
 });
 
-router.post('/', (req, res) => {
-  const genre = req.body;
-
-  const { error } = validateGenre(genre);
+router.post('/', async (req, res) => {
+  const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
-  genre.id = genres.length + 1;
-  genres.push(genre);
-  res.send(genre);
+  const genre = new Genre({ name: req.body.name });
+
+  try {
+    const result = await genre.save();
+    res.send(result);
+  } catch(err) {
+    res.status(301).send(err.message);
+  }
 })
 
 router.put('/:id', (req, res) => {
