@@ -1,8 +1,7 @@
 const express = require('express');
-const Genre = require('../schemas/genres');
-const router = express.Router();
+const { Genre, validate } = require('../models/genres');
 
-const Joi = require('joi');
+const router = express.Router();
 
 router.get('/', async (req, res) => {
   try {
@@ -13,8 +12,15 @@ router.get('/', async (req, res) => {
   }  
 });
 
+router.get('/:id', async (req, res) => {
+  const genre = await Genre.findById({ _id: req.params.id });
+  if (!genre) return res.status(404).send('The ID provided did not match any items.');
+
+  res.send(genre);
+});
+
 router.post('/', async (req, res) => {
-  const { error } = validateGenre(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   const genre = new Genre({ name: req.body.name });
@@ -25,42 +31,23 @@ router.post('/', async (req, res) => {
   } catch(err) {
     res.status(301).send(err.message);
   }
-})
+});
 
-router.put('/:id', (req, res) => {
-  const genre = genres.find(genre => genre.id === parseInt(req.params.id));
-
-  if (!genre) return res.status(404).send('Given genre was not found.');
-
-  const updatedGenre = req.body;
-
-  const { error } = validateGenre(updatedGenre);
+router.put('/:id', async (req, res) => {
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
-
-  updatedGenre.id = req.params.id;
-  const index = genres.indexOf(genre);
-  genres.splice(index,1, updatedGenre);
-
-  res.send(updatedGenre);
-})
-
-router.delete('/:id', (req,res) => {
-  const genre = genres.find(genre => genre.id === parseInt(req.params.id));
-
+  
+  const genre = await Genre.findByIdAndUpdate(req.params.id, { name: req.body.name }, { new: true })
   if (!genre) return res.status(404).send('Given genre was not found.');
-
-  const index = genres.indexOf(genre);  
-  genres.splice(index, 1);
 
   res.send(genre);
-})
+});
 
-function validateGenre(genre) {
-  const schema = Joi.object({
-    name: Joi.string().min(3).required()
-  });
+router.delete('/:id', async (req,res) => {
+  const genre = await Genre.findByIdAndRemove(req.params.id);
+  if (!genre) return res.status(404).send('Given genre was not found.');
 
-  return schema.validate(genre);  
-}
+  res.send(genre);
+});
 
 module.exports = router;
