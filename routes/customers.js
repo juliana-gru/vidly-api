@@ -21,8 +21,8 @@ router.post('/', async (req, res) =>{
   const { error } = validateCustomer(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
-  let customer = new Customer(req.body);
-  customer = await customer.save();
+  const customer = new Customer(req.body);
+  await customer.save();
   res.send(customer);
 });
 
@@ -37,7 +37,7 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   const customer = await Customer.findByIdAndRemove(req.params.id);
-  if (!customer) res.status(404).send('Customer not found. Check the id provided and try again.');
+  if (!customer) return res.status(404).send('Customer not found. Check the id provided and try again.');
   res.send(`The following entry was successfully deleted: ${customer}`);
 });
 
