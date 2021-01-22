@@ -3,11 +3,13 @@ const mongoose = require('mongoose');
 const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
 
+const auth = require('./routes/auth');
 const genresRouter = require('./routes/genres');
 const customersRouter = require('./routes/customers');
 const homeRouter = require('./routes/home');
 const moviesRouter = require('./routes/movies');
 const rentalsRouter = require('./routes/rentals');
+const usersRouter = require('./routes/users');
 
 const app = express();
 
@@ -22,6 +24,8 @@ app.use('/api/genres', genresRouter);
 app.use('/api/customers', customersRouter);
 app.use('/api/movies', moviesRouter);
 app.use('/api/rentals', rentalsRouter);
+app.use('/api/users', usersRouter);
+app.use('/api/auth', auth);
 
 
 const port = process.env.PORT || 3000;
