@@ -9,12 +9,10 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/:id', async (req, res) => {
-  try {
-    const customer = await Customer.findById(req.params.id);
-    res.send(customer);
-  } catch(err) {
-    res.status(404).send('The ID provided did not match any customers.');
-  }
+  const customer = await Customer.findById(req.params.id);
+  if (!customer) return res.status(404).send('The ID provided did not match any customers.');
+  
+  res.send(customer);  
 });
 
 router.post('/', async (req, res) =>{  

@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/:id', async (req, res) => {
-  const movie = await Movie.findById({ _id: req.params.id });
+  const movie = await Movie.findById(req.params.id);
   if (!movie) return res.status(404).send('Movie with the given id was not found.');
   res.send(movie);
 });

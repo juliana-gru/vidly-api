@@ -29,7 +29,7 @@ app.use(express.json());
 
 app.use('/', homeRouter);
 app.use('/api/genres', genresRouter);
-app.use('/api/customers', authorize, customersRouter);
+app.use('/api/customers', customersRouter);
 app.use('/api/movies', moviesRouter);
 app.use('/api/rentals', authorize, rentalsRouter);
 app.use('/api/users', usersRouter);
