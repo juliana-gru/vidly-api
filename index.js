@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
 
+const authorize = require('./middleware/auth');
 const auth = require('./routes/auth');
 const genresRouter = require('./routes/genres');
 const customersRouter = require('./routes/customers');
@@ -28,9 +29,9 @@ app.use(express.json());
 
 app.use('/', homeRouter);
 app.use('/api/genres', genresRouter);
-app.use('/api/customers', customersRouter);
+app.use('/api/customers', authorize, customersRouter);
 app.use('/api/movies', moviesRouter);
-app.use('/api/rentals', rentalsRouter);
+app.use('/api/rentals', authorize, rentalsRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/auth', auth);
 
