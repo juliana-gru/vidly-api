@@ -1,11 +1,11 @@
 require('express-async-errors');
 const winston = require('winston');
+require('winston-mongodb');
 const config = require('config');
 const express = require('express');
 const mongoose = require('mongoose');
 const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
-
 const error = require('./middleware/error');
 const authorize = require('./middleware/auth');
 const auth = require('./routes/auth');
@@ -18,7 +18,19 @@ const usersRouter = require('./routes/users');
 
 const app = express();
 
-winston.add(winston.transports.File, { filename: 'logfile.log' });
+process.on('unhandledRejection', (ex) => {
+  console.log('We got an unhandled rejection.');
+  throw ex;
+});
+
+winston.exceptions.handle(
+  new winston.transports.File({ filename: 'uncaughtExceptions.log' }));
+
+winston.add(new winston.transports.File({ filename: 'logfile.log' }));
+winston.add(new winston.transports.MongoDB({ 
+  db: 'mongodb://localhost/vidly-dev',
+  level: 'info'
+}));
 
 //Make sure env variable is set otherwise app is not going to work properly
 if (!config.get('jwtPrivateKey')) {
