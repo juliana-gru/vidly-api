@@ -1,9 +1,12 @@
+require('express-async-errors');
+const winston = require('winston');
 const config = require('config');
 const express = require('express');
 const mongoose = require('mongoose');
 const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
 
+const error = require('./middleware/error');
 const authorize = require('./middleware/auth');
 const auth = require('./routes/auth');
 const genresRouter = require('./routes/genres');
@@ -14,6 +17,8 @@ const rentalsRouter = require('./routes/rentals');
 const usersRouter = require('./routes/users');
 
 const app = express();
+
+winston.add(winston.transports.File, { filename: 'logfile.log' });
 
 //Make sure env variable is set otherwise app is not going to work properly
 if (!config.get('jwtPrivateKey')) {
@@ -34,7 +39,7 @@ app.use('/api/movies', moviesRouter);
 app.use('/api/rentals', authorize, rentalsRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/auth', auth);
-
+app.use(error);
 
 const port = process.env.PORT || 3000;
 
