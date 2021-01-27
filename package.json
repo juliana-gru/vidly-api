@@ -29,6 +29,6 @@
     "morgan": "^1.10.0",
     "pug": "^3.0.0",
     "winston": "^3.3.3",
-    "winston-mongodb": "^3.0.2"
+    "winston-mongodb": "^5.0.5"
   }
 }
