@@ -7,15 +7,7 @@
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
@@ -42,93 +34,81 @@
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"stringValue":"\"525425gfsdf434fs\"","kind":"ObjectId","value":"525425gfsdf434fs","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"stringValue":"\"525425gfsdf434fs\"","kind":"ObjectId","value":"525425gfsdf434fs","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"stringValue":"\"525425gfsdf434fs\"","kind":"ObjectId","value":"525425gfsdf434fs","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"stringValue":"\"525425gfsdf434fs\"","kind":"ObjectId","value":"525425gfsdf434fs","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"stringValue":"\"525425gfsdf434fs\"","kind":"ObjectId","value":"525425gfsdf434fs","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"525425gfsdf434fs\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"level":"error","message":"Cannot read property 'ObjectId' of undefined Cannot read property 'ObjectId' of undefined","stack":"TypeError: Cannot read property 'ObjectId' of undefined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\genres.js:16:23\n    at newFn (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:260:14)"}
-{"level":"error","message":"Cannot read property 'ObjectId' of undefined Cannot read property 'ObjectId' of undefined","stack":"TypeError: Cannot read property 'ObjectId' of undefined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\genres.js:16:23\n    at newFn (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\express\\lib\\router\\index.js:260:14)"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4358:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\node_modules\\mongoose\\lib\\query.js:4450:15)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
-{"message":"Listening on port 3000","level":"info"}
-{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
