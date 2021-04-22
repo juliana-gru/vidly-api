@@ -10,6 +10,7 @@ const homeRouter = require('../routes/home');
 const moviesRouter = require('../routes/movies');
 const rentalsRouter = require('../routes/rentals');
 const usersRouter = require('../routes/users');
+const returnsRouter = require('../routes/returns');
 
 module.exports = function(app) {
   app.use(express.json());
@@ -18,6 +19,7 @@ module.exports = function(app) {
   app.use('/api/customers', customersRouter);
   app.use('/api/movies', moviesRouter);
   app.use('/api/rentals', authorize, rentalsRouter);
+  app.use('/api/returns', returnsRouter);
   app.use('/api/users', usersRouter);
   app.use('/api/auth', auth);
   app.use(error); 

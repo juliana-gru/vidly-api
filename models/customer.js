@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 
 const Customer = mongoose.model('Customer', new mongoose.Schema({
   name: {
-    type: String,
-    minlength: 2,    
+    type: String,   
     minlength: 5,
     maxlength: 50,
     required: true

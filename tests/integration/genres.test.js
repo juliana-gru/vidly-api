@@ -3,17 +3,16 @@ const request = require('supertest');
 const { Genre } = require('../../models/genre');
 const { User } = require('../../models/user');
 
-let server;
 //When writing integration test, you should load the server before and close it after each test, otherwise you get an exception saying the server is already running.
+let server;
 
 describe('/api/genres', () => {
-  beforeEach(() => {
-    server = require('../../index');
-  });
+
+  beforeEach(() => server = require('../../index'));
 
   afterEach(async () => { 
-    server.close();
     await Genre.remove({});
+    await server.close();
   });
   
   describe('GET /', () => {
@@ -120,7 +119,7 @@ describe('/api/genres', () => {
     });
   });
   
-  describe('PUT /id' , () => {
+  describe('PUT /:id' , () => {
     let token;
     let name;
     let genre;    
@@ -131,13 +130,6 @@ describe('/api/genres', () => {
       .set('x-auth-token', token)
       .send({ name }); //in ES6, if key and value are =, keep just key
     }
-
-    // const createGenre = async () => {
-    //   return await request(server)
-    //   .post('/api/genres/')
-    //   .set('x-auth-token', token)
-    //   .send({ name }); //in ES6, if key and value are =, keep just key
-    // }
 
     beforeEach(async () => {
       //Happy path
@@ -198,9 +190,18 @@ describe('/api/genres', () => {
       expect(res.body).toHaveProperty('_id');
       expect(res.body).toHaveProperty('name', name);
     });
+
+    it('should return the updated genre if it is valid', async () => {
+      name = 'updated';
+      
+      const res = await exec();
+
+      expect(res.body).toHaveProperty('_id');
+      expect(res.body).toHaveProperty('name', name);
+    });
   });
 
-  describe('DELETE /id', () => {
+  describe('DELETE /:id', () => {
     let token;
     let genre;
     let id;
