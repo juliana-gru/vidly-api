@@ -487,3 +487,193 @@
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
 {"message":"Listening on port 3000","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:36:17"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:35:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:35:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:35:17"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:32:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:32:17"}
+{"level":"error","message":"Movie is not defined Movie is not defined","stack":"ReferenceError: Movie is not defined\n    at C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\routes\\returns.js:32:17"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
+{"message":"Listening on port 3000","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-tests...","level":"info"}
