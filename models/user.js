@@ -50,4 +50,4 @@ function validateUser(user) {
 
 exports.userSchema = userSchema;
 exports.User = User;
-exports.validate = validateUser;
+exports.validateUser = validateUser;

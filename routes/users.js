@@ -3,7 +3,8 @@ const bcrypt = require('bcrypt');
 const _ = require('lodash');
 
 const auth = require('../middleware/auth');
-const { User, validate } = require('../models/user');
+const validate = require('../middleware/validate');
+const { User, validateUser } = require('../models/user');
 
 router.get('/me', auth, async (req, res) => {
   console.log(req.user._id);
@@ -11,9 +12,9 @@ router.get('/me', auth, async (req, res) => {
   console.log(user);
   res.send(user);
 })
-router.post('/', async (req, res) => {
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+router.post('/', validate(validateUser), async (req, res) => {
+  // const { error } = validate(req.body);
+  // if (error) return res.status(400).send(error.details[0].message);
   
   let user = await User.findOne({ "email": req.body.email });
   if (user) return res.status(400).send('This email is already registered.');

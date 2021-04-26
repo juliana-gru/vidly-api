@@ -1,5 +1,6 @@
 const express = require('express');
-const { Customer, validate } = require('../models/customer');
+const { Customer, validateCustomer } = require('../models/customer');
+const validate = require('../middleware/validate');
 
 const router = express.Router();
 
@@ -15,18 +16,18 @@ router.get('/:id', async (req, res) => {
   res.send(customer);  
 });
 
-router.post('/', async (req, res) =>{  
-  const { error } = validateCustomer(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+router.post('/', validate(validateCustomer),async (req, res) =>{  
+  // const { error } = validateCustomer(req.body);
+  // if (error) return res.status(400).send(error.details[0].message);
 
   const customer = new Customer(req.body);
   await customer.save();
   res.send(customer);
 });
 
-router.put('/:id', async (req, res) => {  
-  const { error } = validateCustomer(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+router.put('/:id', validate(validateCustomer), async (req, res) => {  
+  // const { error } = validateCustomer(req.body);
+  // if (error) return res.status(400).send(error.details[0].message);
 
   const customer = await Customer.findByIdAndUpdate(req.params.id, req.body, { new: true });
   if (!customer) res.status(404).send('Customer not found. Unable to update.');

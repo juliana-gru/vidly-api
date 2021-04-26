@@ -1,33 +1,23 @@
 // const { Return, validateReturn } = require('../models/return');
 const { Movie } = require('../models/movie');
-// const { Customer } = require('../models/customer');
 const { Rental } = require('../models/rental');
 const auth = require('../middleware/auth');
-
+const validate = require('../middleware/validate');
 const router = require('express').Router();
 // const mongoose = require('mongoose');
-const moment = require('moment');
+const Joi = require('Joi');
 // const Fawn = require('fawn');
 
 // Fawn.init(mongoose);
 
-router.post('/', auth, async (req, res) => {
-  if (!req.body.customerId) return res.status(400).send('Missing customerId.');
-  if (!req.body.movieId) return res.status(400).send('Missing movieId.');
+router.post('/', [auth, validate(validateReturn)], async (req, res) => {
+  const rental = await Rental.lookup(req.body.customerId, req.body.movieId);
 
-  const rental = await Rental.findOne({
-    'customer._id': req.body.customerId, 
-    'movie._id': req.body.movieId});    
-  
   if (!rental) return res.status(404).send('No rental found.');
   if (rental.dateReturned) return res.status(400).send('Rental was already processed.');
   
-  rental.dateReturned = new Date();
-  const rentalDays = moment().diff(rental.dateOut, 'days')
-  rental.rentalFee = rentalDays * rental.movie.dailyRentalRate
+  rental.return();  
   await rental.save();  
-  // const customer = await Customer.findById(req.body.customerId);
-  // if (!customer) return res.status(400).send('Invalid customer.');
   
   let movie = await Movie.findById(req.body.movieId);
   if (!movie) return res.status(400).send('Invalid movie.');
@@ -36,8 +26,17 @@ router.post('/', auth, async (req, res) => {
     $inc: { numberInStock: 1 }
   });
 
-  res.status(200).send(rental);
+  return res.send(rental);
   
 });
+
+function validateReturn(returnedMovie) {
+  const schema = Joi.object({
+    movieId: Joi.objectId().required(),    
+    customerId: Joi.objectId().required()
+  });
+
+  return schema.validate(returnedMovie);
+}
 
 module.exports = router;

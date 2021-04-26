@@ -1,8 +1,11 @@
-const { Rental, validate } = require('../models/rental');
-const { Movie } = require('../models/movie');
-const { Customer } = require('../models/customer');
 const router = require('express').Router();
 const mongoose = require('mongoose');
+
+const validate = require('../middleware/validate');
+const { Rental, validateRental } = require('../models/rental');
+const { Movie } = require('../models/movie');
+const { Customer } = require('../models/customer');
+
 const Fawn = require('fawn');
 
 Fawn.init(mongoose);
@@ -20,9 +23,9 @@ router.get('/:id', async (req, res) => {
   res.send(rental);
 });
 
-router.post('/', async (req, res) => {
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+router.post('/', validate(validateRental), async (req, res) => {
+  // const { error } = validate(req.body);
+  // if (error) return res.status(400).send(error.details[0].message);
 
   const customer = await Customer.findById(req.body.customerId);
   if (!customer) return res.status(400).send('Invalid customer.');

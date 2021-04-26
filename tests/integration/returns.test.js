@@ -122,9 +122,8 @@ describe('/api/returns', () => {
        
     const movieInDb = await Movie.findById(movieId); 
     
-    console.log(movieInDb);
+    // console.log(movieInDb);
     
-    // expect(movieInDb._id).toBe(movie._id); 
     expect(movieInDb.numberInStock).toBe(movie.numberInStock + 1); 
   });
 

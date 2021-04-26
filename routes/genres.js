@@ -1,10 +1,11 @@
 const express = require('express');
+const mongoose  = require('mongoose');
 
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
-const { Genre, validate } = require('../models/genre');
-const  mongoose  = require('mongoose');
+const validate = require('../middleware/validate');
 const validateObjectId = require('../middleware/validateObjectId');
+const { Genre, validateGenre } = require('../models/genre');
 
 const router = express.Router();
 
@@ -20,20 +21,14 @@ router.get('/:id', validateObjectId, async (req, res) => {
   res.send(genre);
 });
 
-router.post('/', auth, async (req, res) => {  
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
-
+router.post('/', [auth, validate(validateGenre)], async (req, res) => {  
   const genre = new Genre({ name: req.body.name });
   await genre.save();
   
   res.send(genre);  
 });
 
-router.put('/:id', [auth, validateObjectId], async (req, res) => {
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
-  
+router.put('/:id', [auth, validateObjectId, validate(validateGenre)], async (req, res) => {
   const genre = await Genre.findByIdAndUpdate(req.params.id, { name: req.body.name }, { new: true })
   if (!genre) return res.status(404).send('Given genre was not found.');
 
