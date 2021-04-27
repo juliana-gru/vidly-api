@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const winston = require('winston');
 const config = require('config');
-const { disable } = require('debug');
 
 
 module.exports = function() {
