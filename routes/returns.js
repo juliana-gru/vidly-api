@@ -1,14 +1,9 @@
-// const { Return, validateReturn } = require('../models/return');
 const { Movie } = require('../models/movie');
 const { Rental } = require('../models/rental');
 const auth = require('../middleware/auth');
 const validate = require('../middleware/validate');
 const router = require('express').Router();
-// const mongoose = require('mongoose');
-const Joi = require('Joi');
-// const Fawn = require('fawn');
-
-// Fawn.init(mongoose);
+const Joi = require('joi');
 
 router.post('/', [auth, validate(validateReturn)], async (req, res) => {
   const rental = await Rental.lookup(req.body.customerId, req.body.movieId);
