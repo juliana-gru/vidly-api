@@ -13,6 +13,7 @@ const usersRouter = require('../routes/users');
 const returnsRouter = require('../routes/returns');
 
 module.exports = function(app) {
+  app.set('view engine', 'pug');
   app.use(express.json());
   app.use('/', homeRouter);
   app.use('/api/genres', genresRouter);
