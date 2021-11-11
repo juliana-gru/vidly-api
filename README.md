@@ -1,5 +1,5 @@
 # vidly
 
-An API for movie rentals built with NODE.js and MongoDB. 
+An API for movie rentals built with NODE.js and MongoDB Atlas. 
 
-Deployed with Heroku.
+Deployed with Heroku on https://vidly-api-nodejs-mongodb-atlas.herokuapp.com/
