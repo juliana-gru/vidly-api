@@ -48,3 +48,11 @@
 {"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
 {"code":"PUG:SYNTAX_ERROR","msg":"Syntax Error: Unexpected token","line":6,"column":19,"filename":"C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\views\\index.pug"}
 {"code":"PUG:SYNTAX_ERROR","msg":"Syntax Error: Unexpected token","line":6,"column":19,"filename":"C:\\Users\\Julia\\Documents\\Mosh\\Complete Node course\\vidly-api\\views\\index.pug"}
+{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}
+{"message":"Listening on port 3333","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly-dev...","level":"info"}

@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 
 const error = require('../middleware/error');
 const authorize = require('../middleware/auth');
@@ -14,6 +15,7 @@ const returnsRouter = require('../routes/returns');
 
 module.exports = function(app) {
   app.set('view engine', 'pug');
+  app.use(cors());
   app.use(express.json());
   app.use('/', homeRouter);
   app.use('/api/genres', genresRouter);
