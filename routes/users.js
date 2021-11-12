@@ -24,7 +24,9 @@ router.post('/', validate(validateUser), async (req, res) => {
 
   const token = user.generateAuthToken();
   
-  res.header('x-auth-token', token).send(_.pick(user, ['name', 'email']));
+  res.header('x-auth-token', token) //setting custom header
+    .header('access-control-expose-headers', 'x-auth-token') // so client can access custom headers
+    .send(_.pick(user, ['name', 'email']));
 });
 
 module.exports = router;
